@@ -33,11 +33,6 @@ h2 {
   font-weight: 200;
 }
 
-.lastName {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -56,14 +51,32 @@ a:hover {
   text-shadow: 0 0 7px #fff;
 }
 
+/* HERO */
 .hero {
   background-image: url(../img/clavier.jpg);
   filter: grayscale(1);
-  height: 800px;
+  min-height: 800px;
   width: 100vw;
   padding: 40px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
   gap: 40px;
+}
+
+.lastName {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.resume {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
