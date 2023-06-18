@@ -1,0 +1,20 @@
+header {
+  background: linear-gradient(90deg, var(--secondcolor), var(--maincolor));
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-github {
+  height: 30px;
+}
+
+.logo-github:hover {
+  filter: opacity(0.5);
+}
