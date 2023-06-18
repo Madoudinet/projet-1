@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,700;1,200;1,700&family=Tourney:wght@600&display=swap");
-:root {
-  --maincolor: #31314e;
-  --secondcolor: #222;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -11,7 +6,7 @@
 }
 
 body {
-  background-color: var(--secondcolor);
+  background-color: #222;
   color: #fff;
   font-family: "Raleway", sans-serif;
 }
@@ -38,7 +33,7 @@ a:hover {
 }
 
 header {
-  background: linear-gradient(90deg, var(--secondcolor), var(--maincolor));
+  background: linear-gradient(90deg, #222, #31314e);
   padding: 10px 40px;
   display: flex;
   justify-content: space-between;
@@ -79,6 +74,45 @@ nav {
   width: 50%;
 }
 
+.form-contact {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit {
+  background-color: #31314e;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  padding: 1em 3em;
+  align-self: start;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #5e5e8b;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  border: none;
+}
+
 @media screen and (max-width: 800px) {
   header {
     flex-direction: column;
@@ -88,5 +122,8 @@ nav {
   nav {
     width: 100%;
     justify-content: space-around;
+  }
+  .txt {
+    width: 90vw;
   }
 }/*# sourceMappingURL=style.css.map */

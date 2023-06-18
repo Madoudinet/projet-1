@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(90deg, var(--secondcolor), var(--maincolor));
+  background: linear-gradient(90deg, $second-color, $main-color);
   padding: 10px 40px;
   display: flex;
   justify-content: space-between;
