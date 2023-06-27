@@ -3,10 +3,12 @@
 @import './base/default';
 @import './base/fonts';
 @import './components/button';
+@import './components/card';
 @import './layout/header';
 @import './layout/footer';
 @import './page/home';
 @import './page/contact';
+@import './page/projets';
 
 
 @media screen and (max-width: 800px) {
