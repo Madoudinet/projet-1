@@ -153,6 +153,26 @@ nav {
   flex-wrap: wrap;
 }
 
+.photo {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.photo:hover {
+  cursor: pointer;
+}
+
+ul {
+  padding: 64px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 @media screen and (max-width: 800px) {
   header {
     flex-direction: column;
